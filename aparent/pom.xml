@@ -10,8 +10,23 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
+        <!--&lt;!&ndash; region spring data operation &ndash;&gt;-->
+        <!--<module>../spring-data/datasource-demo</module>-->
+        <!--<module>../spring-data/pure-datasource-demo</module>-->
+        <!--<module>../spring-data/demo-multiple-datasource</module>-->
+        <!--<module>../spring-data/demo-druid-datasource</module>-->
+        <!--<module>../spring-data/demo-simple-jdbc</module>-->
+        <!--<module>../spring-data/demo-program-transaction</module>-->
+        <!--<module>../spring-data/demo-declare-transaction</module>-->
+        <!--<module>../spring-data/demo-sql-errorcode</module>-->
+        <!--&lt;!&ndash; endregion &ndash;&gt;-->
+
+        <!--region spring data JPA -->
+        <!--<module>../spring-data/demo-jpa</module>-->
         <module>../spring-data/jpa-demo</module>
         <module>../spring-data/jpa-complex-demo</module>
+        <!--endregion-->
+
         <module>../spring-data/mybatis-demo</module>
         <module>../spring-data/mybatis-generator-demo</module>
     </modules>
