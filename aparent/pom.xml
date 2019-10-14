@@ -12,6 +12,8 @@
     <modules>
         <module>../spring-data/jpa-demo</module>
         <module>../spring-data/jpa-complex-demo</module>
+        <module>../spring-data/mybatis-demo</module>
+        <module>../spring-data/mybatis-generator-demo</module>
     </modules>
 
 </project>
