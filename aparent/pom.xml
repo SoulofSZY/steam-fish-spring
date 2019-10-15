@@ -29,6 +29,7 @@
 
         <module>../spring-data/mybatis-demo</module>
         <module>../spring-data/mybatis-generator-demo</module>
+        <module>../spring-data/mybatis-pagehelper-demo</module>
     </modules>
 
 </project>
