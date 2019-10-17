@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <!--&lt;!&ndash; region spring data operation &ndash;&gt;-->
+        <!--region spring data operation -->
         <!--<module>../spring-data/datasource-demo</module>-->
         <!--<module>../spring-data/pure-datasource-demo</module>-->
         <!--<module>../spring-data/demo-multiple-datasource</module>-->
@@ -19,17 +19,26 @@
         <!--<module>../spring-data/demo-program-transaction</module>-->
         <!--<module>../spring-data/demo-declare-transaction</module>-->
         <!--<module>../spring-data/demo-sql-errorcode</module>-->
-        <!--&lt;!&ndash; endregion &ndash;&gt;-->
+        <!-- endregion -->
 
         <!--region spring data JPA -->
         <!--<module>../spring-data/demo-jpa</module>-->
-        <module>../spring-data/jpa-demo</module>
-        <module>../spring-data/jpa-complex-demo</module>
+        <!--<module>../spring-data/jpa-demo</module>-->
+        <!--<module>../spring-data/jpa-complex-demo</module>-->
         <!--endregion-->
 
-        <module>../spring-data/mybatis-demo</module>
-        <module>../spring-data/mybatis-generator-demo</module>
-        <module>../spring-data/mybatis-pagehelper-demo</module>
+        <!-- region spring mybatis -->
+        <!--<module>../spring-data/mybatis-demo</module>-->
+        <!--<module>../spring-data/mybatis-generator-demo</module>-->
+        <!--<module>../spring-data/mybatis-pagehelper-demo</module>-->
+        <!--endregion-->
+
+        <!-- region nosql -->
+        <module>../nosql/mongo-demo</module>
+        <!-- endregion -->
+
+        <module>../spring-data/springbucks</module>
+
     </modules>
 
 </project>
