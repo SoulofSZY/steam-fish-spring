@@ -38,6 +38,7 @@
         <module>../nosql/mongo-repository-demo</module>
         <module>../nosql/mongo-xml-demo</module>
         <module>../nosql/redis-demo</module>
+        <module>../nosql/redis-util-demo</module>
         <!-- endregion -->
 
         <module>../spring-data/springbucks</module>
